@@ -1,8 +1,9 @@
+import ShadButton from "@/components/ui/Button/ShadButton";
 
 export default function Home() {
   return (
     <div>
-      jgcyugyuc
+      <ShadButton buttonText={"Apply"}/>
     </div>
   );
 }
