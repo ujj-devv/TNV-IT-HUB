@@ -1,9 +1,9 @@
-import ShadButton from "@/components/ui/Button/ShadButton";
+import HeroSection from "@/components/pages/Home/HeroSection/HeroSection";
 
 export default function Home() {
   return (
     <div>
-      <ShadButton buttonText={"Apply"}/>
+      <HeroSection/>
     </div>
   );
 }

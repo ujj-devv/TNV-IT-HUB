@@ -2,17 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --main-background:210, 22%, 18%;
+    --background: 0, 100%, 50%;
     --foreground: #ededed;
   }
-} */
+}
 
 @layer base {
   :root {
 
-    --background: 0 0% 100%;
+    --background: 0, 100%, 50%;
 
     --foreground: 240 10% 3.9%;
 
@@ -24,9 +25,11 @@
 
     --popover-foreground: 240 10% 3.9%;
 
-    --primary: 240 5.9% 10%;
+    --primary: 134, 60%, 45%;
 
     --primary-foreground: 0 0% 98%;
+
+    --primary-hover: 120, 39%, 39%;
 
     --secondary: 240 4.8% 95.9%;
 
@@ -64,7 +67,7 @@
   }
   .dark {
 
-    --background: 240 10% 3.9%;
+    --background: 0, 100%, 50%;
 
     --foreground: 0 0% 98%;
 
@@ -76,9 +79,11 @@
 
     --popover-foreground: 0 0% 98%;
 
-    --primary: 0 0% 98%;
+    /* --primary: 134, 60%, 45%; */
 
     --primary-foreground: 240 5.9% 10%;
+
+    --primary-hover: 120, 39%, 39%;
 
     --secondary: 240 3.7% 15.9%;
 
