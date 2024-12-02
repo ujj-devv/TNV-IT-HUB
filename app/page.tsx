@@ -1,5 +1,6 @@
 import Footer from "@/components/global/Footer/Footer";
 import Navbar from "@/components/global/Navbar/Navbar";
+import ApproachSection from "@/components/pages/Home/ApproachSection/ApproachSection";
 import ClientsLogos from "@/components/pages/Home/ClientsSection/ClientsSection";
 import Contact from "@/components/pages/Home/ContactSection/ContactSection";
 import Features from "@/components/pages/Home/FeaturesSection/FeaturesSection";
@@ -13,6 +14,7 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <ServicesSection />
+      <ApproachSection/>
       <Features/>
       <Testimonials/>
       <ClientsLogos/>
