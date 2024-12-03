@@ -14,7 +14,7 @@ export default function ClientsLogos() {
     return (
         <section className="bg-white py-10">
             <div className="max-w-7xl mx-auto">
-                <h2 className="text-3xl font-semibold text-center mb-12 text-blue-700">Our Trusted Clients</h2>
+                <h2 className="text-3xl font-semibold text-center mb-12 text-[#1E293B]">Our Trusted Clients</h2>
                 <div className="overflow-hidden">
                     <div
                         id="logos-container"
@@ -36,7 +36,7 @@ export default function ClientsLogos() {
                             ))
                         }
                         {/* Repeat logos to ensure a continuous scroll */}
-                        {
+                        {/* {
                             logoArray.map(({ icon, alt }) => (
                                 <div className="client-logo" key={icon}>
                                     <Image
@@ -49,7 +49,7 @@ export default function ClientsLogos() {
                                 </div>
 
                             ))
-                        }
+                        } */}
                     </div>
                 </div>
             </div>

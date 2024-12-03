@@ -11,16 +11,16 @@ export default function Navbar() {
     <nav className="bg-white shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
-        <div className="text-blue-600 font-extrabold text-2xl">
+        <div className="text-[#1E293B] font-extrabold text-2xl">
           TNV IT-HUB
         </div>
 
         {/* Navbar Links */}
         <div className="hidden md:flex space-x-6">
-          <a href="#" className="text-blue-600 hover:text-blue-800 transition">Home</a>
-          <a href="#services" className="text-blue-600 hover:text-blue-800 transition">Services</a>
-          <a href="#about" className="text-blue-600 hover:text-blue-800 transition">About</a>
-          <a href="#contact" className="text-blue-600 hover:text-blue-800 transition">Contact</a>
+          <a href="#" className="text-[#1E293B] hover:text-blue-800 transition">Home</a>
+          <a href="#services" className="text-[#1E293B] hover:text-blue-800 transition">Services</a>
+          <a href="#about" className="text-[#1E293B] hover:text-blue-800 transition">About</a>
+          <a href="#contact" className="text-[#1E293B] hover:text-blue-800 transition">Contact</a>
         </div>
 
         {/* Hamburger Menu for Small Screens */}
@@ -34,10 +34,10 @@ export default function Navbar() {
       {/* Mobile Menu Dropdown */}
       {isMenuOpen && (
         <div className="md:hidden bg-white text-center py-4 space-y-4">
-          <a href="#" className="text-blue-600 hover:text-blue-800 block">Home</a>
-          <a href="#services" className="text-blue-600 hover:text-blue-800 block">Services</a>
-          <a href="#about" className="text-blue-600 hover:text-blue-800 block">About</a>
-          <a href="#contact" className="text-blue-600 hover:text-blue-800 block">Contact</a>
+          <a href="#" className="text-[#1E293B] hover:text-blue-800 block">Home</a>
+          <a href="#services" className="text-[#1E293B] hover:text-blue-800 block">Services</a>
+          <a href="#about" className="text-[#1E293B] hover:text-blue-800 block">About</a>
+          <a href="#contact" className="text-[#1E293B] hover:text-blue-800 block">Contact</a>
         </div>
       )}
     </nav>

@@ -4,10 +4,10 @@ import featuresImg from "/public/features.gif";
 
 export default function Features() {
   return (
-    <section className="py-16 text-blue-700">
+    <section className=" px-8 py-16 text-blue-700">
       {/* Section Heading */}
       <div className="text-center mb-12">
-        <h2 className="text-4xl font-bold">Our Features</h2>
+        <h2 className="text-4xl font-bold text-[#1E293B]">Our Features</h2> {/* Updated to text-black */}
       </div>
 
       {/* Content */}
@@ -25,21 +25,21 @@ export default function Features() {
         {/* Features Section */}
         <div className="w-full lg:w-1/2 text-center lg:text-left">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-            <div className="p-8 bg-white text-blue-600 rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:-translate-y-2 hover:shadow-2xl hover:bg-[#FF3366] hover:text-white">
+            <div className="group p-8 bg-white text-blue-600 rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:-translate-y-2 hover:shadow-2xl hover:bg-[#FF3366] hover:text-white">
               <h3 className="text-xl font-semibold mb-4">Real-Time Monitoring</h3>
-              <p>
+              <p className="text-gray-600 group-hover:text-white"> {/* Hover effect on <p> */}
                 Track and respond to cyber threats in real-time with our advanced monitoring solutions.
               </p>
             </div>
-            <div className="p-8 bg-white text-blue-600 rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:-translate-y-2 hover:shadow-2xl hover:bg-[#FF3366] hover:text-white">
+            <div className="group p-8 bg-white text-blue-600 rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:-translate-y-2 hover:shadow-2xl hover:bg-[#FF3366] hover:text-white">
               <h3 className="text-xl font-semibold mb-4">Automated Response</h3>
-              <p>
+              <p className="text-gray-600 group-hover:text-white"> {/* Hover effect on <p> */}
                 Automatically neutralize threats with AI-powered security automation.
               </p>
             </div>
-            <div className="p-8 bg-white text-blue-600 rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:-translate-y-2 hover:shadow-2xl hover:bg-[#FF3366] hover:text-white">
+            <div className="group p-8 bg-white text-blue-600 rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:-translate-y-2 hover:shadow-2xl hover:bg-[#FF3366] hover:text-white">
               <h3 className="text-xl font-semibold mb-4">24/7 Support</h3>
-              <p>
+              <p className="text-gray-600 group-hover:text-white"> {/* Hover effect on <p> */}
                 Our team is always on hand to help, with round-the-clock customer support for any security concerns.
               </p>
             </div>

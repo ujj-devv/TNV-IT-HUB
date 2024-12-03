@@ -27,7 +27,7 @@ const services = [
 export default function ServicesSection() {
   return (
     <section className="py-16 px-8 lg:px-16 bg-gray-50 relative">
-      <h2 className="text-4xl font-extrabold text-center text-blue-900 mb-12">
+      <h2 className="text-4xl font-extrabold text-center text-[#1E293B] mb-12">
         Our Services
       </h2>
       <div className="flex flex-col items-center space-y-12">
@@ -49,10 +49,10 @@ export default function ServicesSection() {
               className="bg-white p-6 rounded-lg shadow-lg text-center border border-gray-200"
             >
               <div className="mb-6 flex justify-center">{service.icon}</div>
-              <h3 className="text-xl font-semibold text-blue-800 mb-4">
+              <h3 className="text-xl font-semibold text-black mb-4">
                 {service.title}
               </h3>
-              <p className="text-blue-600">{service.description}</p>
+              <p className="text-gray-600">{service.description}</p>
             </div>
           ))}
         </div>

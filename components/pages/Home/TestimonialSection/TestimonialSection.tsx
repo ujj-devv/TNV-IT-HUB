@@ -1,7 +1,7 @@
 // components/Testimonials.js
 export default function Testimonials() {
     return (
-      <section className="py-16 bg-blue-50 text-blue-600">
+      <section className="px-8 py-16 bg-blue-50 text-[#1E293B]">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-12">What Our Clients Say</h2>
           <div className="flex flex-wrap justify-center gap-12">

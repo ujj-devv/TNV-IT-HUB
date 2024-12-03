@@ -1,0 +1,13 @@
+@mixin commonButtonStyles{
+    @apply  text-white hover:bg-[#CC2952] font-semibold rounded-lg transition duration-200;
+}
+
+.button__wrapper-primary{
+    @include commonButtonStyles;
+    @apply bg-[#FF3366];
+}
+
+.button__wrapper-secondary{
+    @include commonButtonStyles;
+    @apply bg-white border-2 border-[#FF3366] text-[#FF3366] hover:bg-[#FF3366] hover:text-white; 
+}

@@ -1,0 +1,10 @@
+.approachCard__wrapper{
+    @apply border border-gray-100 p-8 shadow-md rounded-lg flex flex-col gap-2 ;
+
+    .title{
+        @apply font-semibold text-2xl text-[#1E293B];
+    }
+    .icon__wrapper{
+        @apply text-[#1E293BE5] font-medium flex flex-row items-center gap-2;
+    }
+}

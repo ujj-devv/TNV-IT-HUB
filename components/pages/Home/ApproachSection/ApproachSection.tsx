@@ -1,27 +1,22 @@
-import ShadTabs from '@/components/ui/Tabs/ShadTabs'
+import Paragraph from '@/components/global/Paragraph/Paragraph'
 import React from 'react'
-
-const triggerList = [
-    { value: 'account', label: 'Account' },
-    { value: 'password', label: 'Password' },
-    { value: 'settings', label: 'Settings' },
-]
-
-const contentList = [
-    { value: 'account', content: 'Make changes to your account here.' },
-    { value: 'password', content: 'Change your password here.' },
-    { value: 'settings', content: 'Adjust your settings here.' },
-]
+import HoverVerticalTabs from '@/components/global/VerticalTabs/VerticalTabs'
 
 const ApproachSection = () => {
     return (
-        <div className='my-4 mx-auto flex flex-col justify-center items-center'>
-            <div>
-                <h2 className="text-4xl font-extrabold text-center text-blue-900 mb-12">
-                    Sectors
+        <div className='px-8 lg:px-16 py-8'>
+            <div className='flex flex-col gap-4 mb-12 justify-center items-center lg:justify-start lg:items-start'>
+                <h2 className='font-bold text-5xl text-[#1E293B]'>
+                    <span className='text-blue-700 '>Cutting-Edge</span>{" "}
+                    Approach
                 </h2>
+                <Paragraph
+                        text='Experience unmatched security with our groundbreaking 8-step approach. 
+                Our advanced techniques and innovative solutions provide unparalleled protection against emerging 
+                threats and vulnerabilities, taking security to new heights. Revolutionize your security measures with us.'
+                />
             </div>
-            <ShadTabs triggerList={triggerList} contentList={contentList} />
+            <HoverVerticalTabs />
         </div>
     )
 }

@@ -3,10 +3,10 @@ import "./button.scss"
 import { ShadButtonPropType } from "./button.types"
 
 
-const ShadButton = ({ buttonText }:ShadButtonPropType) => {
+const ShadButton = ({ buttonText, customStyles, buttonType }:ShadButtonPropType) => {
     return (
         <>
-            <Button>
+            <Button className={`button__wrapper-${buttonType} ${customStyles}`}>
                 {buttonText}
             </Button>
         </>

@@ -1,0 +1,7 @@
+.paragraph__wrapper{
+    @apply w-full md:w-2/3;
+
+    p{
+        @apply text-base font-normal text-[#383240] leading-7;
+    }
+}
