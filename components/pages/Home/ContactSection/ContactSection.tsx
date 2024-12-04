@@ -4,7 +4,7 @@ import ShadButton from "@/components/ui/Button/ShadButton";
 // components/Contact.js
 export default function Contact() {
     return (
-        <section className="px-8 py-16 bg-gradient-to-r  text-[#1E293B]">
+        <section className="px-8 py-16 bg-[#F9FAFB]  text-[#1E293B]">
             <div className="max-w-7xl mx-auto text-center">
                 <h2 className="text-4xl font-bold mb-8">Get In Touch</h2>
                 <p className="text-lg mb-8">Have any questions? We&apos;d love to hear from you.</p>

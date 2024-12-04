@@ -10,7 +10,7 @@ const TabContentSection = ({
     imageIcon,
 }: TabContentSectionProps) => {
     return (
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-6 p-6 bg-gray-50 rounded-lg shadow-lg">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-6 p-6 ">
             {/* Left Section: Text */}
             <div className="flex flex-col lg:w-2/3 text-center lg:text-left gap-4">
                 <h3 className="text-2xl font-bold text-[#1E293B]">{title}</h3>

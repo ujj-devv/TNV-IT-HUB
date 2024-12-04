@@ -8,6 +8,8 @@ import ServicesSection from "@/components/pages/Home/ServicesSection/ServicesSec
 import Testimonials from "@/components/pages/Home/TestimonialSection/TestimonialSection";
 import Sectors from "@/components/pages/Home/Sectors/Sectors";
 import ApproachSection from "@/components/pages/Home/ApproachSection/ApproachSection";
+import FAQ from "@/components/pages/Home/FAQSection/FAQSection";
+import Services from "@/components/pages/Home/Services/Services";
 
 export default function Home() {
   return (
@@ -15,15 +17,14 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <ServicesSection />
+      <Services/>
       <Sectors />
       <ApproachSection />
       <Features />
       <Testimonials />
       <ClientsLogos />
       <Contact />
-      {/* <FAQ/>
-      <Blog/>
-      <CTA/> */}
+      <FAQ/>
       <Footer />
     </div>
   );

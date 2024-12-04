@@ -2,6 +2,13 @@ import TabContentSection from '@/components/global/TabContent/TabContent';
 import ShadTabs from '@/components/ui/Tabs/ShadTabs';
 import Image from 'next/image';
 import React from 'react';
+import healthcare from "/public/healthcare.svg"
+import financial from "/public/financial.svg"
+import retail from "/public/retail.svg"
+import transport from "/public/transport.svg"
+import publicSector from "/public/public-sector.svg"
+import energy from "/public/energy.svg"
+import industrial from "/public/industrial.svg"
 
 const triggerList = [
   { value: 'public', label: 'Public' },
@@ -23,10 +30,10 @@ const contentList = [
         action="Learn More"
         imageIcon={
           <Image
-            src="/icons/public-sector-icon.png"
+            src={publicSector}
             alt="Public Sector Icon"
-            width={128}
-            height={128}
+            width={400}
+            height={400}
             className="object-contain"
           />
         }
@@ -42,10 +49,10 @@ const contentList = [
         action="Explore Healthcare"
         imageIcon={
           <Image
-            src="/icons/healthcare-icon.png"
+            src={healthcare}
             alt="Healthcare Icon"
-            width={128}
-            height={128}
+            width={400}
+            height={400}
             className="object-contain"
           />
         }
@@ -61,10 +68,10 @@ const contentList = [
         action="Secure Finance"
         imageIcon={
           <Image
-            src="/icons/financial-icon.png"
+            src={financial}
             alt="Financial Icon"
-            width={128}
-            height={128}
+            width={400}
+            height={400}
             className="object-contain"
           />
         }
@@ -80,10 +87,10 @@ const contentList = [
         action="Learn More"
         imageIcon={
           <Image
-            src="/icons/industrial-icon.png"
+            src={industrial}
             alt="Industrial Icon"
-            width={128}
-            height={128}
+            width={400}
+            height={400}
             className="object-contain"
           />
         }
@@ -94,15 +101,15 @@ const contentList = [
     value: "energy",
     content: (
       <TabContentSection
-        title="Energy Solutions"
+        title={"Energy Sector Cybersecurity"}
         description="Drive sustainable energy solutions with our expertise."
         action="Explore Energy"
         imageIcon={
           <Image
-            src="/icons/energy-icon.png"
+            src={energy}
             alt="Energy Icon"
-            width={128}
-            height={128}
+            width={400}
+            height={400}
             className="object-contain"
           />
         }
@@ -118,10 +125,10 @@ const contentList = [
         action="Discover Transport"
         imageIcon={
           <Image
-            src="/icons/transport-icon.png"
+            src={transport}
             alt="Transport Icon"
-            width={128}
-            height={128}
+            width={400}
+            height={400}
             className="object-contain"
           />
         }
@@ -137,10 +144,10 @@ const contentList = [
         action="Enhance Retail"
         imageIcon={
           <Image
-            src="/icons/retail-icon.png"
+            src={retail}
             alt="Retail Icon"
-            width={128}
-            height={128}
+            width={400}
+            height={400}
             className="object-contain"
           />
         }
